@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 768px;
+  /* overflow-y: hidden; */
 }
 
 body {
@@ -17,6 +20,10 @@ header {
   background-color: #4c4177;
   background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
   padding: 20px 0px 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .flex-column {
@@ -78,3 +85,10 @@ header {
   text-align: center;
   font-size: 2em;
 }
+
+#content {
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
