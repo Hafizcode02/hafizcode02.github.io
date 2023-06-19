@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap");
+html{
+  background-color: #393E46;
+}
 
 * {
   box-sizing: border-box;
@@ -13,6 +16,7 @@ body {
   width: 100%;
   font-family: "Recursive", sans-serif;
   background: #efefef;
+  border-radius: 20px;
 }
 
 header {
