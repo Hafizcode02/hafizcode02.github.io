@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap");
-html{
-  background-color: #393E46;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap");
+html {
+  background-color: #393e46;
 }
 
 * {
@@ -9,12 +8,12 @@ html{
   margin: 0 auto;
   max-width: 768px;
   /* overflow-y: hidden; */
+  font-family: "Noto Sans", sans-serif;
 }
 
 body {
   margin: 0 auto;
   width: 100%;
-  font-family: "Recursive", sans-serif;
   background: #efefef;
   border-radius: 20px;
 }
